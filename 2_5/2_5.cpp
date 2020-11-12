@@ -2,6 +2,10 @@
 
 using namespace std;
 
+/*
+ * Принцип работы расписан в задаче 2_4
+ */
+
 int main() {
     int n;
 
