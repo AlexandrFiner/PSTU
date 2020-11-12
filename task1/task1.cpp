@@ -39,13 +39,12 @@ int main()
 	cout << "Введите зарплату:" << endl;
 	cin >> z;
 	
-	float sumRub = 0; // Выплата в рублях
-	float sumUsd = 0; // Выплата в Usd 
+	float sumRub; // Выплата в рублях
+	float sumUsd; // Выплата в Usd
 	
 	sumRub = salaryPayments(s, z);
 	sumUsd = usdToRub(sumRub);
 
-	// cout.precision(2); // До 2 знаков после запятой
 	cout << endl << endl << "Вам будет выплачено:" << endl << sumRub << " руб." << endl << sumUsd << " $" << endl;
 
 	return 0;
